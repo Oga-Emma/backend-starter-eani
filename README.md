@@ -3,6 +3,7 @@
 Build and deploy a very simple API that does the following
 
 1.  Calculate and return the age of a person, given their date of birth (dob) as query parameters to `GET /howold`
+    Example: /howold?dob=20-03-1996, date format is important here dd/MM/yyy
 
 2.  Limit calls to `GET /howold` and prevent excessive usage from potentially ill-configured or malicious integrators. Only allow a maximum of 3 calls per second for each API client/caller
 
